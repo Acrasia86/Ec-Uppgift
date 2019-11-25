@@ -1,0 +1,401 @@
+*
+{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 12450px) 
+{
+ 
+}
+
+
+
+
+header
+{
+    
+    background-image: linear-gradient(rgba(255, 0, 0, 0.705)a(255, 0, 0, 0.233), rgba(0, 0, 255, 0.719));
+    background-color: rgba(94, 94, 94, 0.938);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+    box-shadow: 0 19px 38px rgba(18, 62, 207, 0.151), 0 15px 12px rgba(82, 10, 110, 0.158);
+    
+    
+}
+
+
+body
+{
+    background-image: url(Background.jpg), linear-gradient(to bottom, rgb(9, 170, 182) 0%, rgba(210,75,90,0.9) 19%, rgba(186,39,55,0.73) 51%, rgba(241,142,153,0.47) 100%);
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.H1
+{
+    margin: 0;
+    color: rgb(241, 174, 87);
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.Box1
+{
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: rgb(243, 143, 12);
+    box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+    border-style: solid;
+    border-color: rgb(51, 33, 8);
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    position: absolute;
+    right: 45%;
+    bottom: 10%;
+    
+   
+   
+}
+
+.Box1:hover
+{
+    
+    background-color: rgb(250, 172, 69);
+   
+}
+.Box2:hover
+{
+    background-color: rgb(250, 172, 69);
+}
+.Box3:hover
+{
+    background-color: rgb(250, 172, 69);
+}
+.Box4:hover
+{
+    background-color: rgb(250, 172, 69);
+}
+.Box5:hover
+{
+    background-color: rgb(250, 172, 69); 
+}
+
+.Box1:active{
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+.Box2:active{
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+.Box3:active{
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+.Box4:active{
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+.Box5:active{
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+
+.Box2
+{
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: rgb(243, 143, 12);
+    box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+    border-style: solid;
+    border-color: rgb(51, 33, 8);
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+    right: 34%;
+    bottom: 10%;
+}
+
+.Box3
+{
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: rgb(243, 143, 12);
+    box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+    border-style: solid;
+    border-color: rgb(51, 33, 8);
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+    right: 56%;
+    bottom: 10%;
+}
+
+.Box4
+{
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: rgb(243, 143, 12);
+    box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+    border-style: solid;
+    border-color: rgb(51, 33, 8);
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+    right: 67%;
+    bottom: 10%;
+}
+
+.Box5
+{
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: rgb(243, 143, 12);
+    box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+    border-style: solid;
+    border-color: rgb(51, 33, 8);
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+    right: 23%;
+    bottom: 10%;
+}
+
+
+footer
+{
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(23, 12, 36, 0.877);
+    box-shadow: 0 19px 38px rgba(18, 62, 207, 0.151), 0 15px 12px rgba(82, 10, 110, 0.158);
+}
+
+.JP
+{
+    color: rgb(241, 174, 87);
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.2rem;
+    
+}
+
+.welcomeText
+{
+    padding-top: 200px;
+    padding-left: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(26, 4, 88);
+    max-width: 1000px;
+
+}
+
+.welcomeText2
+{
+    padding-top: 20px;
+    padding-left: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(26, 4, 88);
+    max-width: 1000px;
+}
+
+.LinkList
+{
+    text-align: center;
+    width: 100px;
+    font-size: 1.5rem;
+    text-decoration: none;
+   margin: 0 auto;
+   padding-top: 50px;
+    
+   
+}
+
+a
+{
+    color: rgb(243, 143, 12);
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: rgb(128, 57, 241);
+    
+}
+
+a:hover
+
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+
+
+.TextField
+{
+    border-width: 1px;
+    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border-color: rgb(77, 2, 216);
+  margin-left: 650px;
+  margin-top: 7px;
+  font-weight: bold;
+ 
+}
+
+.Submit
+{
+    border-width: 1px;
+    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border-color: rgb(216, 141, 2);
+  margin-left: 650px;
+  margin-top: 10px;
+ 
+  
+  
+}
+
+.JP
+{
+    color: rgb(241, 174, 87);
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.2rem;
+    
+}
+
+.Jacob
+{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+ 
+}
+
+.Jacob:hover
+{
+    opacity: 0.5;
+    transition: opacity 1s, background 1s;
+}
+
+.Info
+{
+    
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 300px;
+   
+}
+
+.Table
+{
+   
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(243, 143, 12, 0.877);
+   box-shadow: 0 19px 38px rgba(207, 103, 18, 0.205), 0 15px 12px rgba(61, 25, 1, 0.185);
+   font-size: 1.2rem;
+   border-color: rgb(0, 0, 0);
+
+   border-collapse: collapse;
+   text-align: center;
+  
+  
+}
+
+#one
+{
+    font-weight: bold;
+}
+#two
+{
+    font-weight: bold;
+}
+#three
+{
+    font-weight: bold;
+}
+#four
+{
+    font-weight: bold;
+}
+
+
+.active p {background-color: blue;}
+
+.active .Box1 { color: white; }
+.active .Box2 { color: white; }
+.active .Box3 { color: white; }
+.active .Box4 { color: white; }
+.active .Box5 { color: white; }
+
+.Action
+{
+    color: red;
+}
+
+.Comedy
+{
+    color: green;
+}
+
+.Fantasy
+{
+    color: blue;
+}
+
